@@ -983,12 +983,34 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5ac3e38-b2da-4b8b-af3b-5e4281e16a0c)
     )
+    (fp_line (start 10.033 127.127) (end 4.953 127.127) (layer "Edge.Cuts") (width 0.12) (tstamp 60c58492-7d13-47d7-a526-4f6fe0246008))
+    (fp_line (start 4.953 123.927) (end 10.033 123.927) (layer "Edge.Cuts") (width 0.12) (tstamp abb2b6de-010b-421e-a23a-e5dd80cce142))
+    (fp_line (start 10.033 4.572) (end 4.953 4.572) (layer "Edge.Cuts") (width 0.12) (tstamp eafb07a5-2c9c-4297-8e23-e7746d94882c))
+    (fp_line (start 4.953 1.372) (end 10.033 1.372) (layer "Edge.Cuts") (width 0.12) (tstamp efcc8fad-2156-4e7c-b3ca-c6f2f32999e6))
     (fp_rect (start 0 0) (end 20 128.5) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp 86c06a99-e0bc-40d5-a7f9-e5b1bfafe6eb))
+    (fp_arc (start 4.953 127.127) (mid 3.353 125.527) (end 4.953 123.927) (layer "Edge.Cuts") (width 0.12) (tstamp 547b3923-7d14-42fc-9197-1513e6d4ce5d))
+    (fp_arc (start 4.953 4.572) (mid 3.353 2.972) (end 4.953 1.372) (layer "Edge.Cuts") (width 0.12) (tstamp 5e894c5e-1a2f-4ec4-8cc1-1d415da67a98))
+    (fp_arc (start 10.033 1.372) (mid 11.633 2.972) (end 10.033 4.572) (layer "Edge.Cuts") (width 0.12) (tstamp 975da45e-a88c-49ae-a7c7-76fda59b3b0a))
+    (fp_arc (start 10.033 123.927) (mid 11.633 125.527) (end 10.033 127.127) (layer "Edge.Cuts") (width 0.12) (tstamp b3e52c3e-3c2b-4c52-b739-159c36d250e5))
     (fp_line (start 20 3) (end 0 3) (layer "User.9") (width 0.12) (tstamp 019410ec-340a-474b-a3cb-d3a780f307b4))
     (fp_line (start 10 0) (end 10 128.5) (layer "User.9") (width 0.12) (tstamp 63889b5b-319a-4ec7-9d88-38746b1ff624))
     (fp_line (start 20 125.5) (end 0 125.5) (layer "User.9") (width 0.12) (tstamp 797336a2-12e4-4dd0-a33e-dc6624c7dd5e))
-    (pad "" np_thru_hole circle (at 10 3) (size 3.2 3.2) (drill 3.2) (layers F&B.Cu *.Mask) (tstamp 12290910-e1c4-4f12-a089-9b99be24c1fc))
-    (pad "" np_thru_hole circle (at 10 125.5) (size 3.2 3.2) (drill 3.2) (layers F&B.Cu *.Mask) (tstamp 18e3600f-2088-4659-97d0-c83b17047ead))
+    (group "" (id b40b16f9-8002-410f-ab0b-403d51e27f5f)
+      (members
+        5e894c5e-1a2f-4ec4-8cc1-1d415da67a98
+        975da45e-a88c-49ae-a7c7-76fda59b3b0a
+        eafb07a5-2c9c-4297-8e23-e7746d94882c
+        efcc8fad-2156-4e7c-b3ca-c6f2f32999e6
+      )
+    )
+    (group "" (id b899c381-9ff4-439e-8ba2-75e71266fa04)
+      (members
+        547b3923-7d14-42fc-9197-1513e6d4ce5d
+        60c58492-7d13-47d7-a526-4f6fe0246008
+        abb2b6de-010b-421e-a23a-e5dd80cce142
+        b3e52c3e-3c2b-4c52-b739-159c36d250e5
+      )
+    )
   )
 
   (footprint "eurorack:mount_LUM_1502-03" (layer "F.Cu")
